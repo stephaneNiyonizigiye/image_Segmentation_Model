@@ -1,12 +1,12 @@
-version: '3.8'
+version: "3.8"
 
 services:
   flask-app:
     build: .
     ports:
-      - "5000:5000"
+      - "5005:5005"  # Correction du port
     volumes:
-      - .:/app
+      - .:/app  # Monte le répertoire local dans le conteneur
     environment:
       - PYTHONUNBUFFERED=1
     restart: unless-stopped
