@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waiting...</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <h2>Processing...</h2>
+    <p>Please wait while we segment the image.</p>
+
+    <script>
+      setTimeout(function () {
+        window.location.href = "{{ url_for('response') }}";
+      }, 2000); // 2 secondes avant redirection
+    </script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+flask
+flask-cors
+torch
+torchvision
+Pillow
+numpy
+python-dotenv
+transformers
+opencv-python
+PIL
+dotenv
