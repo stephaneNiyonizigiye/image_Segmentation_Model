@@ -6,6 +6,3 @@ Pillow
 numpy
 python-dotenv
 transformers
-opencv-python
-PIL
-dotenv
