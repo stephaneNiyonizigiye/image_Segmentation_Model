@@ -6,3 +6,7 @@ Pillow
 numpy
 python-dotenv
 transformers
+torch 
+torchvision 
+torchaudio 
+
